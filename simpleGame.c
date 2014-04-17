@@ -49,7 +49,6 @@ int main()
         switch(pil){
             case 'a':
                 kotak[baris][kolom]=' ';
-                // print them
                 kolom--;
                 if(kolom<0){
                     kolom=0;
@@ -58,7 +57,6 @@ int main()
                 break;
             case 's':
                 kotak[baris][kolom]=' ';
-                // print them
                 baris+=2;
                 if(baris>n-1){
                     baris=n-1;
@@ -67,7 +65,6 @@ int main()
                 break;
             case 'd':
                 kotak[baris][kolom]=' ';
-                // print them
                 kolom++;
                 if(kolom>n-1){
                     kolom=n-1;
@@ -77,7 +74,6 @@ int main()
 
             case 'w':
                 kotak[baris][kolom]=' ';
-                // print them
                 baris-=2;
                 if(baris<2){
                     baris=1;
